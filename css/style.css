@@ -37,7 +37,7 @@ h3 {
 }
 .content{ 
 	margin: 0 auto; 
-	width: 960px; 
+	width: 100%; 
 }
 .clear { 
 	clear: both; 
@@ -55,15 +55,17 @@ h3 {
 	float: right; 
 	margin-top: 20px; 
 }
-#logo a { 
+#head { 
 	color: #fff; 
 	text-decoration: none; 
 	float: left; 
 	font-size: 30px; 
 	margin-top: 20px; 
+	margin-left: 20px;
 	color: #fff; 
 	font-family:"Wellfleet"; 
-	font-weight: bold; }
+	font-weight: bold; 
+}
 #nav ul{
 	list-style: none;
 	display: block;
@@ -176,6 +178,7 @@ img {
 	height: 300px;
 	margin: 0 auto;
 	border: solid black;
+	margin-left: 25px;
 }
 
 .img-container {
@@ -194,6 +197,41 @@ img {
 	color: white;
 }
 
+
+@media (max-width: 990px) {
+  #head {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 950px) {
+  #nav {
+  	margin-right: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  #nav {
+  	margin-right: 30px;
+  }
+}
+
+@media (max-width: 865px) {
+  #nav {
+  	margin: 0 auto;
+  	float: none;
+
+  }
+
+  #header {
+  	height: 140px;
+  }
+
+  #head {
+  	text-align: center;
+  	width: 100%;
+  }
+}
 
 
 
