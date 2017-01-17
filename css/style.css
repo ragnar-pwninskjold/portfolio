@@ -175,14 +175,15 @@ background-size: cover;
 
 
 img {
-	height: 300px;
+	max-width: 100%;
+	height: auto;
 	margin: 0 auto;
 	border: solid black;
 	margin-left: 25px;
 }
 
 .img-container {
-	width: 100%;
+	max-width: 500px;
 }
 
 /*.rows {
