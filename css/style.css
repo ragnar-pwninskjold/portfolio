@@ -176,14 +176,14 @@ background-size: cover;
 
 img {
 	max-width: 100%;
-	height: auto;
-	margin: 0 auto;
+/*	height: auto;
+*/	margin: 0 auto;
 	border: solid black;
 	margin-left: 25px;
 }
 
 .img-container {
-	max-width: 500px;
+	max-width: 600px;
 }
 
 /*.rows {
@@ -238,6 +238,10 @@ img {
 	img {
 		height: 250px;
 	}
+}
+
+#API img, #NODE img {
+	margin-top: -60px;
 }
 
 
