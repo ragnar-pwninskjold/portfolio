@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Sean | Web Engineer</title>
+ <link rel="stylesheet" href="css/style.css"/>
+
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+
+ <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+ <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'> 
+ <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+ <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+ <script>
+ $(document).ready(function() {
+$('a[href*="#"]').each(function() {
+if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+&& location.hostname == this.hostname
+&& this.hash.replace(/#/,'') ) {
+var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+if ($target) {
+var targetOffset = $target.offset().top;
+$(this).click(function() {
+$("#nav li a").removeClass("active");
+$(this).addClass('active');
+$('html, body').animate({scrollTop: targetOffset}, 1000);
+return false;
+});
+}
+}
+});
+
+});
+ </script>
+</head>
+<body>
+<header id="header">
+<div class="content">
+<div id="logo"><a href=""> SEAN KOCHEL </a></div>
+<nav id="nav">
+ <ul>
+ <li><a href="#HOME" class="active" title="Next Section" >HOME</a></li>
+ <li><a href="#MERN" title="Next Section">MERN</a></li>
+ <li><a href="#REDUX" title="Next Section">NODE</a></li>
+ <li><a href="#NODE" title="Next Section">REDUX</a></li>
+ <li><a href="#API" title="Next Section">API</a></li>
+ <li><a href="#CONTACT" title="Next Section">CONTACT</a></li>
+ </ul>
+</nav>
+</div>
+</header>
+<div id="HOME">
+ <div class="content">
+
+ <h2>WEB</h2>
+ <h1>ENGINEER</h1>
+ <div id="divider"> </div>
+ <h2>ENTREPRENEUR</h2>
+ </div> 
+ </div> 
+ <div id="MERN">
+ <div class="content rows">
+ <div class="explanation-container">
+ <div class="img-container"><a href="https://mysterious-harbor-13851.herokuapp.com/"><img src="img/FULL-STACK.jpg" align="left"/></a></div>
+ <div class="explanation">
+ <h2 class="heading-black">Financial Fantasy</h2>
+ <h3>MongoDB</h3>
+ <h3>Express</h3>
+ <h3>React/Redux</h3>
+ <h3>Node</h3>
+ </div>
+ </div> 
+ </div> 
+ </div> 
+ <div id="REDUX">
+ <div class="content rows">
+ <div class="explanation-container">
+ <a href="https://ragnar-pwninskjold.github.io/redux-weather-app"><img src="img/WEDUX.jpg" align="left"/></a>
+ <div class="explanation">
+  <h2 class="heading-white">WEDUX</h2>
+  <h3>React</h3>
+  <h3>Redux</h3>
+  </div>
+ </div> 
+ </div> 
+ </div> 
+ <div id="NODE">
+ <div class="content rows">
+ <div class="explanation-container">
+ <a href="https://morning-plains-25826.herokuapp.com"><img src="img/NODE.jpg" align="left"/></a>
+ <div class="explanation">
+  <h2 class="heading-black">Stock Overflow</h2>
+  <h3>Node</h3>
+  <h3>Express</h3>
+  </div>
+ </div> 
+ </div> 
+ </div> 
+  <div id="API">
+ <div class="content rows">
+ <div class="explanation-container">
+ <a href="https://ragnar-pwninskjold.github.io/apicapstone/"><img src="img/API.jpg" align="left"/></a>
+ <div class="explanation">
+  <h2 class="heading-white">API Hack</h2>
+  <h3>Amazon API</h3>
+  <h3>eBay API</h3>
+  </div>
+ </div> 
+ </div> 
+ </div> 
+ <div id="CONTACT">
+ <div class="content rows">
+ <div class="explanation-container">
+ <div class="explanation">
+ 	<h2 class="heading-black">Sean Kochel</h2>
+ 	<h2 class="heading-black">seankochel@gmail.com</h2>
+ 	<h2 class="heading-black">github.com/ragnar-pwninskjold</h2>
+ </div>
+ 
+ </div> 
+ <div id="copyright"><a href="http://1stwebdesigner.com/">Copyright 1stwebdesigner.com </a></div> 
+ </div> 
+ </div> 
+ </body>
+</html>
