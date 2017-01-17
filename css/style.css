@@ -233,6 +233,12 @@ img {
   }
 }
 
+@media (max-width: 650px) {
+	img {
+		height: 250px;
+	}
+}
+
 
 
 
