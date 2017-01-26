@@ -357,6 +357,18 @@ img {
 	margin-top: 30px;
 }
 
+@media (max-width: 690px) {
+  .about-explanation {
+  	font-size: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-explanation {
+  	font-size: 20px;
+  }
+}
+
 
 
 
