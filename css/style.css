@@ -369,6 +369,25 @@ img {
   }
 }
 
+.contact-icons {
+	border-style: none;
+	width: 50px;
+	height: auto;
+}
+
+.icons {
+	text-align: center;
+}
+
+.glyphicon {
+	color: black;
+	width: 70px;
+	height: auto;
+	top: 17px !important;
+	font-size: 50px;
+	margin-left: 15px;
+}
+
 
 
 
