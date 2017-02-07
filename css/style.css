@@ -235,48 +235,6 @@ img {
 }
 
 
-/*@media (max-width: 990px) {
-  #head {
-    margin-left: 20px;
-  }
-}
-
-@media (max-width: 950px) {
-  #nav {
-  	margin-right: 20px;
-  }
-}
-
-@media (max-width: 900px) {
-  #nav {
-  	margin-right: 30px;
-  }
-}
-
-@media (max-width: 865px) {
-  #nav {
-  	margin: 0 auto;
-  	float: none;
-
-  }
-
-  #header {
-  	height: 110px;
-  }
-
-  #head {
-  	text-align: center;
-  	width: 100%;
-  }
-}*/
-
-/*@media (max-width: 650px) {
-	img {
-		height: 250px;
-	}
-}*/
-
-
 
 .repo-link {
 	text-align: center;
@@ -379,6 +337,28 @@ a.link-white:hover {
 @media (max-width: 690px) {
   .about-explanation {
   	font-size: 25px;
+  }
+}
+@media (max-width: 890px) {
+  .explanation-container {
+  	width: 75%;
+  }
+
+  #mern .intro-to-project, #redux .intro-to-project, #api .intro-to-project  {
+  	margin-bottom: 275px;
+  }
+
+   #node .intro-to-project {
+  	margin-bottom: 325px !important;
+  }
+
+  #mern, #redux, #node, #api {
+  	padding-bottom: 0px;
+  }
+
+  img {
+  	margin-bottom: 30px;
+  	margin-left: 0px;
   }
 }
 
