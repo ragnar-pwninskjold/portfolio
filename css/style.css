@@ -35,7 +35,7 @@ h2 {
 h3 {
 	font-family: Oswald;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 23px;
 	text-align: center;
 	margin: 5px 0;
 	padding: 0;
@@ -54,53 +54,66 @@ h3 {
 	clear: both; 
 }
 
-#header {
+.navbar-default {
 	width: 100%;
-	background: url('../img/header-bg.png');
-	height: 80px;
+	background-color: #6F6F7F;
+	height: 55px;
 	position: fixed;
-/*	margin-top: 30px;
-*/}
-#nav { 
-	width: 575px; 
-	float: right; 
-	margin-top: 20px; 
-}
-#head { 
-	color: #fff; 
+	z-index: 10000;
 	text-decoration: none; 
 	float: left; 
 	font-size: 30px; 
-	margin-top: 20px; 
+	font-family:"Wellfleet"; 
+	font-weight: bold; 
+/*	margin-top: 30px;
+*/}
+
+.navbar-brand {
+	color: white !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white !important;
+}
+#nav { 
+	float: right; 
+	margin-top: 8px; 
+	padding-right: 20px;
+}
+#head { 
+	text-decoration: none; 
+	float: left; 
+	font-size: 30px; 
+	margin-top: 11px; 
 	margin-left: 20px;
-	color: #fff; 
+	color: white; 
 	font-family:"Wellfleet"; 
 	font-weight: bold; 
 }
-#nav ul{
+.navbar-default ul{
 	list-style: none;
 	display: block;
 	margin: 0 auto;
 	list-style: none;
 }
-#nav li{
+.navbar-default li{
 	margin-top: 9px;
 	float: left;
 	padding-left: 21px;
 }
-#nav li a { 
-	color: #fff; 
+.navbar-default li a { 
+	color: white; 
 	opacity:0.6; 
 	font-size: 16px; 
 	text-decoration: none; 
 	font-family: 'Wellfleet'; 
 }
-#nav li a.active { 
-	color: #fff; 
+.navbar-default li a.active { 
+	color: white; 
 	opacity:1; 
-	border-bottom: 2px solid #fff; 
 }
-#nav li a:hover { 
+
+.navbar-default li a:hover { 
 	color: #fff; 
 	opacity:1; 
 }
@@ -110,24 +123,20 @@ h3 {
 	font-weight: normal;
 	font-size: 30px;
 	text-align: left;
-	margin: 50px auto;
+	margin: 0px auto;
 }
 
- .author_name_white { 
- 	font-family:"Wellfleet"; 
- 	margin: 70px 0 0 75px; 
- 	color: #fff; 
- 	font-size: 20px; 
- } 
- .author_name_gray { 
- 	font-family:"Wellfleet"; 
- 	margin: 70px 0 0 75px; 
- 	color: #94a4a4; 
- 	font-size: 20px; 
- } 
  .explanation-container { 
  	width: 100%; 
  	margin: 0 auto; 
+ 	position: relative;
+ 	top: 50%;
+ 	transform: translateY(-50%); 
+ }
+
+ #about .explanation-container {
+ 	 	margin-top: 150px;
+
  }
 #divider { 
 	background: url('../img/divider.png')no-repeat; 
@@ -136,65 +145,68 @@ h3 {
 	margin: 0px auto 27px auto; 
 }
 
-#HOME, #MERN{ 
+#home, #mern{ 
 	width: 100%; 
 }
-#HOME{
-background-color: #4876FF;
+#home{
+background-color: #373BFF;
 color: #fff;
-height: 400px;
-margin: 0;
-padding: 200px 0 600px 0;
+height: 100%;
+margin-top: 0;
+padding: 200px 0px;
 background-size: cover;
 }
 
-#ABOUT{
+#about{
 background-color: white;
 color: #fff;
-height: 400px;
-margin: 0;
-padding: 200px 0 600px 0;
-background-size: cover;
-padding-top: 100px;
+/*padding: 200px 0 600px 0;
+*/background-size: cover;
+margin: 40px 0px;
+padding: 80px 0px;
 }
-#MERN{
-background-color: #16a085;
+#mern{
+background-color: #373BFF;
 color: white;
-height: 300px;
-margin: 0 auto;
-overflow: hidden;
-padding: 200px 0;
-padding-bottom: 400px;
+/*height: 400px;
+*/margin: 0 auto;
+/*overflow: hidden;
+*/padding: 200px 0;
+padding-top: 75px;
+
 }
-#REDUX{
+#redux{
 background-color: white;
 color: black;
-height: 600px;
-padding: 170px 0 0 0;
-background-size: cover;
+/*height: 400px;
+*/padding: 250px 0;
+padding-top: 75px;
 }
-#NODE{
-background-color: #ff4d4d;
+#node{
+background-color: #373BFF;
 color: white;
-height: 300px;
-padding: 200px 0;
-padding-bottom: 400px;
+/*height: 400px;
+*/padding: 200px 0;
+/*padding-bottom: 400px;
+*/
+padding-top: 75px;
 }
-#API{
+#api{
 background-color: white;
-height: 200px;
-margin: 0 auto;
-padding: 250px 0;
-padding-bottom: 400px;
-color: black;
+/*height: 400px;
+*/margin: 0 auto;
+padding: 200px 0;
+/*padding-bottom: 400px;
+*/color: black;
 background-size: cover;
+padding-top: 75px;
 }
-#CONTACT{
-background-color: #ffff4c;
+#contact{
+background-color: #E5E6FF;
 color: black;
-height: 600px;
-padding: 170px 0 0 0;
+padding: 50px 0;
 background-size: cover;
+padding-top: 75px;
 }
 
 
@@ -223,7 +235,7 @@ img {
 }
 
 
-@media (max-width: 990px) {
+/*@media (max-width: 990px) {
   #head {
     margin-left: 20px;
   }
@@ -256,7 +268,7 @@ img {
   	text-align: center;
   	width: 100%;
   }
-}
+}*/
 
 /*@media (max-width: 650px) {
 	img {
@@ -264,9 +276,7 @@ img {
 	}
 }*/
 
-#API img, #NODE img {
-	margin-top: -60px;
-}
+
 
 .repo-link {
 	text-align: center;
@@ -278,22 +288,30 @@ img {
 
 }
 
+a.link-black:hover {
+	color: white;
+}
+
+a.link-white:hover {
+	color: black;
+}
+
 .repository {
 	width: 100%;
 	height: 20px;
 }
 
-@media (max-width: 900px) {
+/*@media (max-width: 900px) {
   .explanation-container {
   	width: 65%;
   }
-  #MERN, #REDUX, #NODE, #API {
+  #mern, #redux, #node, #api {
   	padding-bottom: 600px;
   }
-  #MERN, #REDUX {
+  #mern, #redux {
   	padding-top: 100px;
   }
-  #NODE, #API {
+  #node, #api {
   	padding-top: 165px;
   }
 }
@@ -304,13 +322,13 @@ img {
   	padding-right: 0px;
   	font-size: 25px;
   }
-  #CONTACT h2 {
+  #contact h2 {
   	font-size: 30px;
   }
 
   /*a {
 	font-size: 10px !important;
-  }*/
+  }
 
   #nav {
   	width: 100%;
@@ -320,9 +338,10 @@ img {
   	height: 135px;
   }
 }
-
+*/
 .sean {
-	color: #4876FF;
+	font-size: 4.0rem;
+	font-weight: bold ;
 }
 
 .node {
@@ -341,7 +360,7 @@ img {
 }
 
 @media (max-width: 760px) {
-	#CONTACT .explanation-container {
+	#contact .explanation-container {
 		width: 100%;
 	}
 }
@@ -354,7 +373,7 @@ img {
 	width: 100%;
 	max-width: 720px;
 	margin: 0 auto;
-	margin-top: 30px;
+	font-size: 27px;
 }
 
 @media (max-width: 690px) {
@@ -371,7 +390,7 @@ img {
 
 .contact-icons {
 	border-style: none;
-	width: 50px;
+	width: 30px;
 	height: auto;
 }
 
@@ -381,15 +400,62 @@ img {
 
 .glyphicon {
 	color: black;
-	width: 70px;
-	height: auto;
-	top: 17px !important;
+    width: 70px;
+    height: auto;
+    top: 9px !important;
+    font-size: 29px;
+    margin-left: 1px;
+}
+
+.skills-used {
 	font-size: 50px;
-	margin-left: 15px;
 }
 
 
+#contact .heading-black {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+a {
+	color: black;
+}
+
+.white-title-link {
+	color: white;
+}
+
+.black-title-link {
+	color: black;
+}
+
+.white-title-link:hover {
+	color: white;
+}
+
+.black-title-link:hover {
+	color: black;
+}
 
 
+p.intro-to-project {
+	color: white;
+	max-width: 720px;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20px;
+}
 
+.intro {
+	width: 100%;
+	margin-bottom: 150px;
+}
 
+#node .intro-to-project /*#api .intro-to-project*/ {
+	margin-bottom: 150px;
+}
+
+#redux .intro, #api .intro {
+	margin-bottom: 100px;
+}

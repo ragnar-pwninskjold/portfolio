@@ -7,7 +7,6 @@
 
  <title>Sean | Web Engineer</title>
  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
- <link rel="stylesheet" href="css/style.css"/>
 
  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
  <link href='https://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
@@ -16,27 +15,40 @@
  <link href='https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'> 
  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
  <link href='https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css"/>
  
 
 </head>
 <body>
 <header id="header">
-<div class="content">
-<h1 id="head">SEAN KOCHEL</h1>
-<nav id="nav">
-  <ul>
-     <li><a href="#HOME" class="active" title="Next Section" >HOME</a></li>
-     <li><a href="#ABOUT" title="Next Section" >ABOUT</a></li>
-     <li><a href="#MERN" title="Next Section">MERN</a></li>
-     <li><a href="#REDUX" title="Next Section">REDUX</a></li>
-     <li><a href="#NODE" title="Next Section">NODE</a></li>
-     <li><a href="#API" title="Next Section">API</a></li>
-     <li><a href="#CONTACT" title="Next Section">CONTACT</a></li>
-  </ul>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Sean Kochel</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">        
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a class="active" href="#about">About</a></li>
+        <li><a class="active" href="#projects">Projects</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+ </div>
 </nav>
 </div>
 </header>
-<div id="HOME">
+<div id="home">
   <div class="content">
     <h2>WEB</h2>
     <h1>ENGINEER</h1>
@@ -44,85 +56,116 @@
     <h2>FREELANCER</h2>
   </div> 
 </div> 
-  <div id="ABOUT">
+  <div id="about">
       <div class="content rows">
-          <div class="explanation-container">
+          <div>
               <div class="explanation">
-                  <h2 class="heading-black">About Me</h2>
-                  <p class="about-explanation">My name is <span class="sean">Sean.</span> I’m a <span class="web-engineer">web-engineer</span> that’s passionate about how small groups of people can leverage technology to change the world in big ways. I primarily develop in HTML, CSS, <span class="node">Node</span>, and <span class="react">React</span>.</p>
+                  <p class="about-explanation">
+                  <span class="sean">My name is Sean</span></br></br>
+
+I’m a web-engineer that’s passionate about how small groups of people can leverage technology to change the world in big ways. I write clean, readable code, but find true enjoyment in the realization and execution of ideas.</br></br>
+
+Areas that I find personally interesting include sustainable energy, biotechnology and the reversal of aging, and the global currency wars.</br></br>
+
+My primary development stack consists of Node/Express, MongoDB, and React.
+</p>
               </div>
           </div> 
       </div> 
   </div>
- <div id="MERN">
+<div id="projects">
+ <div id="mern">
+ <h2 class="heading-white"><a target="_blank" href="https://mysterious-harbor-13851.herokuapp.com/" class="white-title-link">Financial Fantasy</a></h2>
+ <div class="intro">
+ <p class="intro-to-project">This is a full-stack javascript project, built from scratch utilizing a MongoDB, Node/Express, and React/Redux. The application allows users to create and join contests which track live stock-market prices. Users build their own daily portfolio, and the player with the highest valued portfolio at the end of the day wins. v2 of this project will include support for actual payouts and entries.</p>
+ </div>
      <div class="content rows">
+
          <div class="explanation-container">
              <div class="img-container">
                 <a target="_blank" href="https://mysterious-harbor-13851.herokuapp.com/"><img src="img/FULL-STACK.jpg" align="left"/></a>
              </div>
              <div class="explanation">
-                 <h2 class="heading-white">Financial Fantasy</h2>
+                
+                 <h3 class="skills-used">Skills used:</h3>
                  <h3>MongoDB</h3>
                  <h3>Express/Node</h3>
                  <h3>React/Redux</h3>
+                 <h3>Webpack</h3>
                  <div class="repository">
-                    <span class="repo-link">Private Repository*</span>
-                    <span class="under-dev"><p>These project files are being kept private. Please contact if you'd like to see the repository.</p></span>
+                    <div class="repository"><a class="repo-link link-black" href="https://github.com/ragnar-pwninskjold/financial-fantasy">View repository</a></div>
                  </div>
              </div>
          </div> 
      </div> 
  </div> 
- <div id="REDUX">
+ <div id="redux">
+ <h2 class="heading-black"><a target="_blank" href="https://ragnar-pwninskjold.github.io/redux-weather-app" class="black-title-link">WEDUX</a></h2>
+ <div class="intro">
+ <p class="intro-to-project" style="color: black">This application was created as a dive into using React with Redux. It allows users to search a zip-code or city across the world, and returns a five day weather forecast. The primary use case for this application is a quick-and-easy snapshot of the weather in a given location. The user searches a city on the home screen, and is then directed to a page with the weather for that location.</p>
+ </div>
      <div class="content rows">
          <div class="explanation-container">
              <div class="img-container">
                  <a target="_blank" href="https://ragnar-pwninskjold.github.io/redux-weather-app"><img src="img/WEDUX.jpg" align="left"/></a>
              </div>
              <div class="explanation">
-                <h2 class="heading-black">WEDUX</h2>
+                <h3 class="skills-used">Skills used:</h3>
                 <h3>React</h3>
                 <h3>Redux</h3>
-                <div class="repository"><a class="repo-link" href="https://github.com/ragnar-pwninskjold/redux-weather-app/tree/gh-pages">View repository</a></div>
+                <div class="repository"><a class="repo-link link-white" href="https://github.com/ragnar-pwninskjold/redux-weather-app/tree/gh-pages">View repository</a></div>
               </div>
          </div> 
      </div> 
  </div> 
- <div id="NODE">
+ <div id="node">
+ <h2 class="heading-white"><a target="_blank" href="https://morning-plains-25826.herokuapp.com" class="white-title-link">Stock Overflow</a></h2>
+ <div class="intro">
+ <p class="intro-to-project">This application was created as a tool for beginners, and allows them to view several aspects of a company's financial health, and make investment decisions based upon that data. Stock Overflow is largely meant as an educational platform, and will be built upon significantly in the future.</p>
+ </div>
      <div class="content rows">
          <div class="explanation-container">
            <div class="img-container">
               <a target="_blank" href="https://morning-plains-25826.herokuapp.com"><img src="img/NODE.jpg" align="left"/></a>
            </div>
            <div class="explanation">
-              <h2 class="heading-white">Stock Overflow</h2>
+              
+              <h3 class="skills-used">Skills used:</h3>
               <h3>Node</h3>
               <h3>Express</h3>
-              <div class="repository"><a class="repo-link" href="https://github.com/ragnar-pwninskjold/node-overflow">View repository</a></div>
+              <h3>MongoDB</h3>
+              <h3>Passport</h3>
+              <h3>jQuery</h3>
+              <div class="repository"><a class="repo-link link-black" href="https://github.com/ragnar-pwninskjold/node-overflow">View repository</a></div>
             </div>
          </div> 
      </div> 
  </div> 
- <div id="API">
+ <div id="api">
+ <h2 class="heading-black"><a target="_blank" href="https://ragnar-pwninskjold.github.io/apicapstone/" class="black-title-link">Amazon-eBay API Smash-up</a></h2>
+ <div class="intro">
+ <p class="intro-to-project" style="color: black">This application allows a user to search a product and compare results across Amazon and eBay product listings.  The Amazon-eBay API smashup is a cross-platform arbitrage tool, which takes a user string, a product category, and other metrics, and returns price comparisons of the same product across the two services. While this application is in v1, it still provides a good deal of automation and quick opportunity scans across various product areas.</p>
+ </div>
    <div class="content rows">
      <div class="explanation-container">
        <div class="img-container"><a target="_blank" href="https://ragnar-pwninskjold.github.io/apicapstone/">
          <img src="img/API.jpg" align="left"/></a>
        </div>
        <div class="explanation">
-          <h2 class="heading-black">Amazon-eBay API Smash-up</h2>
+          
+          <h3 class="skills-used">APIs used:</h3>
           <h3>Amazon API</h3>
           <h3>eBay API</h3>
-          <div class="repository"><a class="repo-link" href="https://github.com/ragnar-pwninskjold/apicapstone/tree/gh-pages">View repository</a></div>
+          <div class="repository"><a class="repo-link link-white" href="https://github.com/ragnar-pwninskjold/apicapstone/tree/gh-pages">View repository</a></div>
         </div>
      </div> 
    </div> 
  </div> 
- <div id="CONTACT">
+ <div id="contact">
    <div class="content rows">
-     <div class="explanation-container">
+     <div>
        <div class="explanation">
-          <h1 class="heading-black">Contact me:</h1></br>
+          <h1 class="heading-black">Contact me:</h1>
          	<h2 class="heading-black">Sean Kochel</h2>
           <div class="icons">
           <a href="https://github.com/ragnar-pwninskjold" target="_blank"><img class="contact-icons" src="./img/github.png"></a>
@@ -132,9 +175,12 @@
        </div>
      </div> 
    </div> 
+   </div>
  </div> 
+  <script src="./js/main.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
  </body>
- <script src="./js/main.js"></script>
+
 </html>
 
 
