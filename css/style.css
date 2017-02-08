@@ -56,7 +56,7 @@ h3 {
 
 .navbar-default {
 	width: 100%;
-	background-color: #6F6F7F;
+	background-color: #56575b;
 	height: 55px;
 	position: fixed;
 	z-index: 10000;
@@ -142,19 +142,23 @@ h3 {
 	background: url('../img/divider.png')no-repeat; 
 	width: 300px; 
 	height: 35px; 
-	margin: 0px auto 27px auto; 
+	margin: 0px auto 27px auto;
+	color: black; 
 }
 
 #home, #mern{ 
 	width: 100%; 
 }
 #home{
-background-color: #373BFF;
-color: #fff;
-height: 100%;
+/*background-color: #525B7F;*/
+background: url('../img/background-photo-5.jpg') no-repeat center center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+color: black;
 margin-top: 0;
 padding: 200px 0px;
-background-size: cover;
 }
 
 #about{
@@ -166,13 +170,14 @@ margin: 40px 0px;
 padding: 80px 0px;
 }
 #mern{
-background-color: #373BFF;
+background-color: #525B7F;
 color: white;
 /*height: 400px;
 */margin: 0 auto;
 /*overflow: hidden;
 */padding: 200px 0;
 padding-top: 75px;
+padding-bottom: 100px;
 
 }
 #redux{
@@ -181,15 +186,17 @@ color: black;
 /*height: 400px;
 */padding: 250px 0;
 padding-top: 75px;
+padding-bottom: 190px;
 }
 #node{
-background-color: #373BFF;
+background-color: #525B7F;
 color: white;
 /*height: 400px;
 */padding: 200px 0;
 /*padding-bottom: 400px;
 */
 padding-top: 75px;
+padding-bottom: 100px;
 }
 #api{
 background-color: white;
@@ -202,7 +209,7 @@ background-size: cover;
 padding-top: 75px;
 }
 #contact{
-background-color: #E5E6FF;
+background-color: #F1F4FF;
 color: black;
 padding: 50px 0;
 background-size: cover;
