@@ -352,7 +352,7 @@ a.link-white:hover {
   }
 
   #mern .intro-to-project, #redux .intro-to-project, #api .intro-to-project  {
-  	margin-bottom: 275px;
+  	margin-bottom: 300px;
   }
 
    #node .intro-to-project {
@@ -361,12 +361,14 @@ a.link-white:hover {
 
   #mern, #redux, #node, #api {
   	padding-bottom: 0px;
+  	height: 950px;
   }
 
   img {
   	margin-bottom: 30px;
   	margin-left: 0px;
   }
+
 }
 
 @media (max-width: 400px) {
@@ -375,10 +377,23 @@ a.link-white:hover {
   }
 }
 
+@media (max-width: 557px) {
+  #contact {
+  	margin-top: 50px;
+  }
+}
+
+@media (max-width: 422px) {
+  #contact {
+  	margin-top: 75px;
+  }
+}
+
 .contact-icons {
 	border-style: none;
 	width: 30px;
 	height: auto;
+	margin-left: 0px;
 }
 
 .icons {
