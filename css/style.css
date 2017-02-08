@@ -150,7 +150,7 @@ h3 {
 	width: 100%; 
 }
 #home{
-/*background-color: #525B7F;*/
+/*background-color: #A4B7FF;*/
 background: url('../img/background-photo-5.jpg') no-repeat center center fixed;
 -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -170,8 +170,8 @@ margin: 40px 0px;
 padding: 80px 0px;
 }
 #mern{
-background-color: #525B7F;
-color: white;
+background-color: #A4B7FF;
+color: #F1F4FF;
 /*height: 400px;
 */margin: 0 auto;
 /*overflow: hidden;
@@ -189,8 +189,8 @@ padding-top: 75px;
 padding-bottom: 190px;
 }
 #node{
-background-color: #525B7F;
-color: white;
+background-color: #A4B7FF;
+color: #F1F4FF;
 /*height: 400px;
 */padding: 200px 0;
 /*padding-bottom: 400px;
@@ -411,6 +411,7 @@ a.link-white:hover {
 
 .skills-used {
 	font-size: 50px;
+	color: black;
 }
 
 
@@ -424,7 +425,7 @@ a {
 }
 
 .white-title-link {
-	color: white;
+	color: black;
 }
 
 .black-title-link {
@@ -441,7 +442,7 @@ a {
 
 
 p.intro-to-project {
-	color: white;
+	color: black;
 	max-width: 720px;
 	width: 100%;
 	text-align: center;
@@ -452,6 +453,7 @@ p.intro-to-project {
 .intro {
 	width: 100%;
 	margin-bottom: 150px;
+	color: #F1F4FF;
 }
 
 #node .intro-to-project /*#api .intro-to-project*/ {
@@ -460,4 +462,8 @@ p.intro-to-project {
 
 #redux .intro, #api .intro {
 	margin-bottom: 100px;
+}
+
+ h3 {
+	color: black;
 }
