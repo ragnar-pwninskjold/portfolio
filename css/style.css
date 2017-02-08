@@ -266,6 +266,10 @@ a.link-white:hover {
 	height: 20px;
 }
 
+#mern .intro {
+	margin-bottom: 120px;
+}
+
 /*@media (max-width: 900px) {
   .explanation-container {
   	width: 65%;
