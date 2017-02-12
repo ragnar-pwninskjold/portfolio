@@ -169,6 +169,8 @@ color: #fff;
 */background-size: cover;
 margin: 40px 0px;
 padding: 80px 0px;
+margin-top: 0px;
+padding-top: 120px;
 }
 #mern{
 background-color: #FF5B40;
@@ -314,21 +316,6 @@ a.link-white:hover {
 	font-weight: bold ;
 }
 
-.node {
-	color: #ff4d4d;
-}
-.web-engineer {
-	color: #16a085;
-}
-
-.react {
-	color: #99992d;
-}
-
-.java {
-	color: #4B0082;
-}
-
 @media (max-width: 760px) {
 	#contact .explanation-container {
 		width: 100%;
@@ -340,10 +327,10 @@ a.link-white:hover {
 }
 
 .about-explanation {
-	width: 100%;
-	max-width: 720px;
+	width: 70%;
 	margin: 0 auto;
 	font-size: 27px;
+	margin-right: 75px;
 }
 
 @media (max-width: 690px) {
@@ -374,6 +361,26 @@ a.link-white:hover {
   	margin-left: 0px;
   }
 
+  .pic-container {
+  	width: 30%;
+  	margin: 0 auto;
+  }
+
+  #about .about-explanation {
+  	float: none !important;
+  	margin: 0 auto !important;
+
+  }
+
+  .me-pic {
+  	float: none !important;
+  	display: inline !important;
+  }
+
+  #about .content {
+  	margin-bottom: 0px !important;
+  }
+
 }
 
 @media (max-width: 550px) {
@@ -384,6 +391,12 @@ a.link-white:hover {
    #node .intro-to-project {
   	margin-bottom: 250px !important;
   }
+}
+
+@media (max-width: 850px) {
+	.glyphicon {
+		padding-left: 25px !important;
+	}
 }
 
 @media (max-width: 400px) {
@@ -402,6 +415,27 @@ a.link-white:hover {
   #contact {
   	margin-top: 75px;
   }
+}
+
+@media (max-width: 790px) {
+  .skill {
+  	width: 100% !important;
+  	display: block !important;
+  	margin: 0 auto !important;
+  }
+
+  .glyphicon {
+  	display: block !important;
+  	margin: 0 auto !important;
+  	float: none !important;
+  	padding: 0px !important;
+  	margin-bottom: 15px !important;
+  }
+
+  .skill-list {
+  	padding-left: 0px;
+  }
+
 }
 
 .contact-icons {
@@ -481,4 +515,53 @@ p.intro-to-project {
 
  h3 {
 	color: black;
+}
+
+.me-pic {
+	display: block;
+	float: left;
+	max-width: 100%;
+	border-radius: 150px;
+	border-color: #E74C3C;
+
+}
+
+#about .about-explanation {
+	float: right;
+	font-size: 20px;
+	margin-top: -55px;
+	margin-right: 0px;
+}
+
+#about .content {
+	margin-bottom: 200px;
+}
+
+.skills-container {
+	clear: both;
+
+}
+
+.pic-container {
+	max-width: 20%;
+}
+
+.skill {
+	display: inline-block;
+	width: 33%;
+	margin-top: 60px;
+}
+
+.glyphicon {
+	float: left;
+	padding-left: 70px;
+}
+
+.skill-item {
+	color: black;
+	text-align: center;
+}
+
+.skill-list {
+	list-style: none;
 }
