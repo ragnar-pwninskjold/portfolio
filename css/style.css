@@ -19,7 +19,7 @@ h1 {
 	font-weight:normal;
 	font-size: 55px;
 	text-align: center;
-	color: white;
+	color: #fff;
 	margin: 0;
 	padding: 0;
 }
@@ -28,7 +28,7 @@ h2 {
 	font-weight: normal;
 	font-size: 40px;
 	text-align: center;
-	color: white;
+	color: #fff;
 	margin: 0;
 	padding: 0;
 }
@@ -41,6 +41,11 @@ h3 {
 	padding: 0;
 	z-index: 1;
 	position: relative;
+}
+
+.navbar-right {
+	border: 1px solid white;
+	background-color: #002840;
 }
 
 .center { 
@@ -69,11 +74,11 @@ h3 {
 */}
 
 .navbar-brand {
-	color: white !important;
+	color: #fff !important;
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: white;
+	color: #fff;
 }
 #nav { 
 	float: right; 
@@ -86,7 +91,7 @@ h3 {
 	font-size: 30px; 
 	margin-top: 11px; 
 	margin-left: 20px;
-	color: white; 
+	color: #fff; 
 	font-family:"Wellfleet"; 
 	font-weight: bold; 
 }
@@ -163,7 +168,7 @@ padding-bottom: 235px;
 }
 
 #about{
-background-color: white;
+background-color: #fff;
 color: #fff;
 /*padding: 200px 0 600px 0;
 */background-size: cover;
@@ -189,7 +194,7 @@ border-color: #FF5B40;
 
 }
 #redux{
-background-color: white;
+background-color: #fff;
 color: black;
 /*height: 400px;
 */padding: 250px 0;
@@ -211,7 +216,7 @@ border-bottom: 3px solid;
 border-color: #FF5B40;
 }
 #api{
-background-color: white;
+background-color: #fff;
 /*height: 400px;
 */margin: 0 auto;
 padding: 200px 0;
@@ -254,7 +259,7 @@ img {
 }
 
 .heading-white {
-	color: white;
+	color: #fff;
 }
 
 
@@ -581,4 +586,8 @@ p.intro-to-project {
 
 a:hover {
 	color: #FF5B40 !important;
+}
+
+.icon-bar {
+	background-color: white !important;
 }
