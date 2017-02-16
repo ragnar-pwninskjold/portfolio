@@ -591,3 +591,8 @@ a:hover {
 .icon-bar {
 	background-color: white !important;
 }
+
+.normal-nav {
+	background-color: transparent;
+	border: none;
+}

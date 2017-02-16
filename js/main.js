@@ -1,4 +1,10 @@
  $(document).ready(function() {
+ 	if($(window).width() <= 767) {
+	$("ul.navbar-right").removeClass("normal-nav");
+}
+else {
+	$("ul.navbar-right").addClass("normal-nav");
+}
 $('a[href*="#"]').each(function() {
 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
 && location.hostname == this.hostname
@@ -16,5 +22,19 @@ return false;
 }
 }
 });
+
+$(window).on('resize', function() {
+if($(window).width() <= 767) {
+	$("ul.navbar-right").removeClass("normal-nav");
+}
+else {
+	$("ul.navbar-right").addClass("normal-nav");
+}
+});
+
+
+// if ($(window).width() <) {
+// 	console.log("burgered");
+// }
 
 });
