@@ -24,7 +24,7 @@ h1 {
 	padding: 0;
 }
 h2 {
-	font-family:"Arvo";
+	font-family: "Arvo";
 	font-weight: normal;
 	font-size: 40px;
 	text-align: center;
@@ -73,7 +73,7 @@ h3 {
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: white !important;
+	color: white;
 }
 #nav { 
 	float: right; 
@@ -113,10 +113,10 @@ h3 {
 	opacity:1; 
 }
 
-.navbar-default li a:hover { 
+/*.navbar-default li a:hover { 
 	color: #fff; 
 	opacity:1; 
-}
+}*/
 
 .explanation {
 	font-family: 'Goudy Bookletter 1911', serif;
@@ -171,9 +171,11 @@ margin: 40px 0px;
 padding: 80px 0px;
 margin-top: 0px;
 padding-top: 120px;
+border-top: 3px solid;
+border-color: #FF5B40;
 }
 #mern{
-background-color: #FF5B40;
+background-color: #e4e4e4;
 color: black;
 /*height: 400px;
 */margin: 0 auto;
@@ -181,6 +183,9 @@ color: black;
 */padding: 200px 0;
 padding-top: 75px;
 padding-bottom: 100px;
+border-top: 3px solid;
+border-bottom: 3px solid;
+border-color: #FF5B40;
 
 }
 #redux{
@@ -190,9 +195,11 @@ color: black;
 */padding: 250px 0;
 padding-top: 75px;
 padding-bottom: 190px;
+border-bottom: 3px solid;
+border-color: #FF5B40;
 }
 #node{
-background-color: #FF5B40;
+background-color: #e4e4e4;
 color: #FF5B40;
 /*height: 400px;
 */padding: 200px 0;
@@ -200,6 +207,8 @@ color: #FF5B40;
 */
 padding-top: 75px;
 padding-bottom: 100px;
+border-bottom: 3px solid;
+border-color: #FF5B40;
 }
 #api{
 background-color: white;
@@ -210,13 +219,17 @@ padding: 200px 0;
 */color: black;
 background-size: cover;
 padding-top: 75px;
+border-bottom: 3px solid;
+border-color: #FF5B40;
 }
 #contact{
-background-color: #FF5B40;
+background-color: #e4e4e4;
 color: black;
-padding: 50px 0;
+padding: 25px 0;
 background-size: cover;
-padding-top: 75px;
+/*padding-top: 75px;
+*/border-bottom: 3px solid;
+border-color: #FF5B40;
 }
 
 
@@ -224,7 +237,7 @@ img {
 	max-width: 100%;
 /*	height: auto;
 */	margin: 0 auto;
-	border: solid black;
+	border: solid #FF5B40;
 	margin-left: 25px;
 }
 
@@ -257,11 +270,11 @@ img {
 }
 
 a.link-black:hover {
-	color: white;
+	color: #FF5B40;
 }
 
 a.link-white:hover {
-	color: black;
+	color: #FF5B40;
 }
 
 .repository {
@@ -450,7 +463,7 @@ a.link-white:hover {
 }
 
 .glyphicon {
-	color: black;
+	color: #FF5B40;
     width: 70px;
     height: auto;
     top: 9px !important;
@@ -482,11 +495,11 @@ a {
 }
 
 .white-title-link:hover {
-	color: white;
+	color: #FF5B40;
 }
 
 .black-title-link:hover {
-	color: black;
+	color: #FF5B40;
 }
 
 
@@ -564,4 +577,8 @@ p.intro-to-project {
 
 .skill-list {
 	list-style: none;
+}
+
+a:hover {
+	color: #FF5B40 !important;
 }
