@@ -608,3 +608,7 @@ a:hover {
 .contact-icons.linkedin {
 	margin-right: -10px;
 }
+
+.navbar-brand:hover {
+	color: #fff !important;
+}
