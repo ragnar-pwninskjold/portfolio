@@ -228,7 +228,7 @@ border-bottom: 3px solid;
 border-color: #FF5B40;
 }
 #contact{
-background-color: #e4e4e4;
+background-color: black;
 color: black;
 padding: 25px 0;
 background-size: cover;
@@ -595,4 +595,16 @@ a:hover {
 .normal-nav {
 	background-color: transparent;
 	border: none;
+}
+
+.heading-black.contact {
+	color: white !important;
+}
+
+.contact-icons.mail {
+	width: 55px;
+}
+
+.contact-icons.linkedin {
+	margin-right: -10px;
 }
