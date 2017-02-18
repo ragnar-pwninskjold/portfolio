@@ -243,7 +243,7 @@ img {
 /*	height: auto;
 */	margin: 0 auto;
 	border: solid #FF5B40;
-	margin-left: 25px;
+	margin-left: 85px;
 }
 
 .img-container {
@@ -338,6 +338,14 @@ a.link-white:hover {
 	#contact .explanation-container {
 		width: 100%;
 	}
+
+}
+
+@media (max-width: 980px) {
+	img {
+		margin-left: 65px !important;
+	}
+
 }
 
 .under-dev p {
@@ -361,6 +369,10 @@ a.link-white:hover {
   	width: 75%;
   }
 
+  .me-pic {
+  	margin-left: 0px !important;
+  }
+
   #mern .intro-to-project, #redux .intro-to-project, #api .intro-to-project  {
   	margin-bottom: 300px;
   }
@@ -376,7 +388,7 @@ a.link-white:hover {
 
   img {
   	margin-bottom: 30px;
-  	margin-left: 0px;
+  	margin-left: 0px !important;
   }
 
   .pic-container {
@@ -541,6 +553,7 @@ p.intro-to-project {
 	max-width: 100%;
 	border-radius: 150px;
 	border-color: #E74C3C;
+	margin-left: 65px;
 
 }
 
