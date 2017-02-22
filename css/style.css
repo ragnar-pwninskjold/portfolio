@@ -646,6 +646,7 @@ a:hover {
 
 .javascript-tag {
 	padding: 20px 0px;
+	font-size: 85px;
 }
 
 .content .rows {
@@ -658,3 +659,8 @@ a:hover {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.fullstack {
+	font-size: 60px;
+}
+
