@@ -172,10 +172,11 @@ background: url('../img/milkyway.jpg') no-repeat center center fixed;
   background-size: cover;
 color: black;
 margin-top: 0;
-padding: 250px 0px;
-padding-bottom: 235px;
+/*padding: 250px 0px;
+*/padding-bottom: 235px;
 border-bottom: 3px solid;
 border-color: #FF5B40;
+padding-top: 200px;
 }
 
 #about{
