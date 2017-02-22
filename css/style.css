@@ -70,11 +70,15 @@ h3 {
 	font-size: 30px; 
 	font-family:"Wellfleet"; 
 	font-weight: bold; 
+	border: none;
+	border-bottom: 1px solid white !important;
 /*	margin-top: 30px;
 */}
 
 .navbar-brand {
 	color: #fff !important;
+	padding: 0px 15px;
+	line-height: 55px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -102,7 +106,6 @@ h3 {
 	list-style: none;
 }
 .navbar-default li{
-	margin-top: 9px;
 	float: left;
 	padding-left: 21px;
 }
@@ -116,6 +119,8 @@ h3 {
 .navbar-default li a.active { 
 	color: white; 
 	opacity:1; 
+	line-height: 55px;
+	padding: 0px 15px;
 }
 
 /*.navbar-default li a:hover { 
@@ -129,6 +134,10 @@ h3 {
 	font-size: 30px;
 	text-align: left;
 	margin: 0px auto;
+}
+
+#about p {
+	text-align: left;
 }
 
  .explanation-container { 
@@ -163,8 +172,10 @@ background: url('../img/milkyway.jpg') no-repeat center center fixed;
   background-size: cover;
 color: black;
 margin-top: 0;
-padding: 200px 0px;
+padding: 250px 0px;
 padding-bottom: 235px;
+border-bottom: 3px solid;
+border-color: #FF5B40;
 }
 
 #about{
@@ -176,9 +187,16 @@ margin: 40px 0px;
 padding: 80px 0px;
 margin-top: 0px;
 padding-top: 120px;
-border-top: 3px solid;
-border-color: #FF5B40;
+
+max-width: 1200px;
+margin: 0 auto;
 }
+
+/*#projects {
+max-width: 1100px;
+margin: 0 auto;
+}*/
+
 #mern{
 background-color: #e4e4e4;
 color: black;
@@ -624,4 +642,19 @@ a:hover {
 
 .navbar-brand:hover {
 	color: #fff !important;
+}
+
+.javascript-tag {
+	padding: 20px 0px;
+}
+
+.content .rows {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.intro {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
 }
